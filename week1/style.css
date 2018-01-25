@@ -1,0 +1,25 @@
+body{
+    width: 100%;
+    text-align: center;
+    background-image: url(http://cdn.mysitemyway.com/etc-mysitemyway/webtreats/assets/posts/973/full/tileable-dark-wood-textures-6.jpg);
+}
+img{
+    width: 70%;
+
+    
+}
+ul{
+    list-style: none;
+    
+}
+li{
+    display: inline-block;
+    width : 40%;
+}
+h1:first-child{
+    color:#F7BC29;
+
+}
+h1,h2,h3{
+    color: white;
+}
