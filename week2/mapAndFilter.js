@@ -94,3 +94,8 @@ console.log("//////////////////////////");
 
 console.log("////////////-5-//////////////");
 
+var Maartje = newTimes.map(hour => hour * 15);
+console.log(Maartje);
+var sumUp = 0;
+Maartje.map((a) => a = sumUp = sumUp + a);
+console.log(sumUp +" €");
