@@ -1,34 +1,6 @@
 "use strict"
-/// Q1+2 ////
-// const books = [
-//     "visit_from_the_goon_squad",
-//     "the_salmon_who_dared_to_leap_higher",
-//     "rabbit_is_rich",
-//     "the_theory_of_everything",
-//     "anna_frank",
-//     "a_brief_history_of_time",
-//     "The_Shell",
-//     "in_love_and_war",
-//     "one_thousand_and_one_night",
-//     "gone_with_the_wind"
 
-// ];
-    // console.log(books);
-///////////////////////
-// // function test() {
-//     const newUl = document.createElement('ul');
-//     document.body.appendChild(newUl);
-   
-    // for (let i = 0; i < books.length; i++) {
-    //     var indexOfArray = books[i];
-    //     indexOfArray = document.createElement('li');
-    //     newUl.appendChild(indexOfArray);
-    // }
-    // console.log(newUl);
 
-// }
-// let idOfLi = indexOfArray.setAttribute("id", "idOfLi");
-// test();
 ////////Q4&Q5&Q6&Q7//////
 let Objects = [
     { id:"Jennifer", title: "A Visit from the goon squad", Language: "English", Auther: "Jennifer Egan" },

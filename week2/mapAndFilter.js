@@ -7,12 +7,12 @@ let newNumbers;
 console.log("////////////-1-//////////////");
 
 let oddNumbers = numbers.filter(x => x % 2 !== 0);
-console.log("the odd numbers : "+oddNumbers);
+console.log("the odd numbers : " + oddNumbers);
 
 
 
 newNumbers = oddNumbers.map(x => x * 2);
-console.log("odd numbers doubled : "+newNumbers);
+console.log("odd numbers doubled : " + newNumbers);
 
 
 
@@ -65,13 +65,23 @@ let tasks = monday.concat(tuesday);
 console.log("////////////-2-//////////////");
 
 var totalDuration = 0;
+<<<<<<< HEAD
 tasks.forEach(task => task = totalDuration = totalDuration+ task.duration);
 console.log("total time is : " + totalDuration +" minutes");
+=======
+tasks.forEach((x) => x = totalDuration = totalDuration + x.duration);
+console.log("total time is : " + totalDuration + " minutes");
+console.log("//////////////////////////");
+>>>>>>> f408a06b047aa7abc2d7fda83e4740e0e30a0c12
 
 
 console.log("////////////-3-//////////////");
 
+<<<<<<< HEAD
 var totalHours = tasks.map(task => task.duration/60);
+=======
+var totalHours = tasks.map(x => x.duration / 60);
+>>>>>>> f408a06b047aa7abc2d7fda83e4740e0e30a0c12
 
 console.log(totalHours);
 
@@ -80,7 +90,7 @@ console.log(totalHours);
 
 console.log("////////////-4-//////////////");
 
-var newTimes = totalHours.filter(x => x >= 2);
+var newTimes = totalHours.filter(x => x < 2);
 console.log(newTimes);
 
 
@@ -93,3 +103,8 @@ console.log(sumUp +" €");
 
 
 
+var maartje = newTimes.map(hour => hour * 30);
+console.log(maartje);
+var sumUp = 0;
+maartje.map((a) => a = sumUp = sumUp + a);
+console.log(sumUp + " €");
